@@ -1,0 +1,527 @@
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    text-decoration-color: black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 253);
+    width: 100%;
+    height: 150px;
+    list-style: circle;
+    border-bottom: 50%;
+    background-color: white;
+    lighting-color: aquamarine;
+    
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border-color: rgb(21, 34, 59);
+    margin-inline: 50px;
+    color: rgba(38, 22, 82, 0.938);
+}
+header ul li{
+    font-size: 24px;
+    border-color: rgb(22, 31, 48);
+    margin: 50px 40px 50px 40px;
+    
+}
+img{
+    width: 150px;
+    margin: 0 30px;
+}
+h1{
+
+    font-size: 40px;
+    color: rgb(248, 245, 242);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    font-size: 30px;
+    color: rgb(217, 217, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fondo1{
+    display: flex;
+    flex-direction: row;
+    background-image: url(./imagenes/fondo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ } 
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px 0;
+    align-items: center;
+    background-color: rgba(66, 70, 141, 0.432); 
+}
+.caja1{
+    width: 95%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 50, 131, 0.473); 
+}
+.inic1 p{
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(42, 42, 46);
+    line-height-step: 10px;
+}
+.inic1 ul{
+    font-size: 24px; 
+    margin: 0px;
+    color: rgb(42, 42, 46);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height-step: 10px;
+}
+.caja2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 50, 131, 0.473); 
+}
+
+.caja2 img{
+    width: 100%;
+
+}
+footer p{
+    font-size: 16px;
+    margin: 10px 30px 10px 10px;
+    
+}
+.footer1{
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-color: black;
+
+}
+.servicios2{
+    width: 98.5%;
+    margin: 50px ;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
+.serv1 h1{
+    display: block;
+    flex-direction: column;
+    font-size: 40px;
+    margin-block-start: 0px;
+    color: rgb(95, 30, 30);
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: center;
+    line-height: 90%;
+
+    
+    
+}
+.serv1 p{
+    font-size: 20px;
+    font-weight: 250;
+    display: flex;
+    margin-block-start: 150px  0  150px 0;
+    flex-direction: column-reverse;
+    color: rgb(95, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-block-start: 5px;
+    
+}
+.informacion1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./imagenes/fondo\ precentacion2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0 90px 0px;
+    color: rgba(43, 16, 117, 0.938);
+}
+.principal2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(222, 227, 231, 0.61);
+
+}
+
+.principal2 h1{
+    font-size: 25px;
+    color: rgba(73, 73, 119, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.principal2 p{
+    font-size: 20px;
+    color: rgb(8, 8, 46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caja3{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 30px 30px 30px 30px;
+}
+.caja4{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 30px 30px 30px 30px;
+}
+.caja5{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 30px 30px 30px 30px;
+}
+.principal3{
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    background-color: rgba(222, 227, 231, 0.61);
+    
+}
+.caja6{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 40px 40px 40px 200px;
+}
+.caja7{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 40px 200px 40px 40px;
+}
+.principal3 h1{
+    font-size: 25px;
+    color: rgba(73, 73, 119, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.principal3 p{
+    font-size: 20px;
+    color: rgb(8, 8, 46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer p{
+    color: rgb(20, 20, 20);
+}
+
+.contactos2 img{
+    width: 100%;       
+}
+
+.contactos2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(16, 17, 17, 0.507); 
+} 
+.contactos2 h1{
+    font-size: 80px;
+    line-height: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: baseline;
+    line-height: 90%;
+}
+.contactos2 p{
+    font-size: 30px;
+    padding: -30px 0 10px 10px;
+    margin-block-start: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: center;
+    align-content: center;
+}
+
+.contac{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./imagenes/contacto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    line-height: 90%;
+    
+}
+.invtarj{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px ;
+    align-items: flex-start;
+    align-content: center;
+    margin: 150px 0 150px 0;
+
+}
+.cont{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: 20%;
+    
+}
+.cont h1{
+    display: block;
+    flex-direction: column;
+    font-size: 40px;
+    margin-block-start: 0px;
+    color: rgb(95, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: baseline;
+    line-height: 90%;
+    
+    
+}
+.cont p{
+    font-size: 20px;
+    font-weight: 250;
+    display: flex;
+    margin-block-start: 0px;
+    flex-direction: column-reverse;
+    color: rgb(95, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-block-start: 0px;
+}
+.tarjeta1 img{
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ubicacion {
+   margin: 150px 0 10px 0px;
+}
+.cont2 h1{
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    line-height: 20px;
+    color: rgba(20, 20, 26, 0.918);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    line-height: 90%; 
+    
+}
+
+.cont3 iframe{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+}
+
+.footer1 h1{
+
+    display: block;
+    flex-direction: column;
+    font-size: 30px;
+    margin-block-start: 30px;
+    color: rgb(95, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: baseline;
+    line-height: 90%;
+    margin-inline: 50px;
+}
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 253);
+    width: 100%;
+    height: 100px;
+    list-style: circle;
+    border-bottom: 50%;
+    background-color: rgba(181, 198, 201, 0.521);
+    
+}
+    
+.footer3 ul{
+    
+    list-style: none;
+     display: flex;
+     flex-direction: row;
+     border-bottom: #5797d6ef;
+     margin-inline: 50px  0 0 10px;
+     color: rgba(38, 22, 82, 0.938);
+        
+}
+.footer3 ul li{
+    font-size: 20px;
+    border-color: rgb(10, 90, 240);
+    margin: 10px;
+    margin-block-start: 30px;
+ }
+ .nosotros2 img{
+    width: 100%;
+       
+}
+
+.nosotros2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(16, 17, 17, 0.507); 
+} 
+.nosotros2 h1{
+    font-size: 80px;
+    line-height: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: baseline;
+    line-height: 90%;
+}
+.nosotros2 p{
+    font-size: 30px;
+    padding: -30px 0 10px 10px;
+    margin-block-start: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: center;
+    align-content: center;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./imagenes/firmacontable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    line-height: 90%;
+}
+.informacionN1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./imagenes/fondo\ precentacion2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0 90px 0px;
+    color: rgba(43, 16, 117, 0.938);
+}
+.principalN1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(222, 227, 231, 0.61);
+
+}
+
+.principalN1 h1{
+    font-size: 25px;
+    color: rgba(73, 73, 119, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.principalN1 p{
+    font-size: 20px;
+    color: rgb(8, 8, 46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nost3{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 30px 30px 30px 30px;
+}
+.nost4{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 30px 30px 30px 30px;
+}
+.nost5 {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    list-style-type: disc;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 60px;
+    margin: 30px 30px 30px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  
